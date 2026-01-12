@@ -159,3 +159,4 @@ C:\Users\kunow\Desktop\Programming\KhunMarket\api\obj\Debug\net9.0\api.genruntim
 C:\Users\kunow\Desktop\Programming\KhunMarket\api\obj\Debug\net9.0\ref\api.dll
 C:\Users\kunow\Desktop\Programming\KhunMarket\api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\kunow\Desktop\Programming\KhunMarket\api\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\kunow\Desktop\Programming\KhunMarket\api\obj\Debug\net9.0\api.sourcelink.json

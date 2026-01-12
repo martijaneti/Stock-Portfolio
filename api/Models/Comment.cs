@@ -1,12 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace api.Models
 {
+    [Table("Comments")]
     public class Comment
     {
+        
         public int Id { get; set; }
         public String Title { get; set; } = String.Empty;
         public String Content { get; set; } = String.Empty;
@@ -14,5 +18,8 @@ namespace api.Models
         public int? StockId { get; set; }
         //Navigation
         public Stock? Stock { get; set; }
+
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
